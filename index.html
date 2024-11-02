@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    input {
+      padding: 10px;
+    }
+    button {
+      padding: 10px;
+      font-size: 15px;
+      background-color: pink;
+      color: rgb(96, 41, 41);
+      border-radius: 5px;
+      border: none;
+    }
+    .container {
+      text-align: center;
+      margin: 10px auto;
+      width: 80%;
+      padding-bottom: 30px;
+      max-width: 1200;
+      background-color: rgb(243, 228, 210);
+      border-radius: 15px;
+    }
+    .movie {
+      background-color: rgb(250, 233, 211);
+      display: inline-block;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      vertical-align: top;
+      text-align: center;
+    }
+    .movie img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .movie img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .movie h3 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .movie p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #555;
+    }
+    #movieList {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>ᓚ₍⑅^..^₎♡Search Movies ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+      <input id="movieInput" type="text" placeholder="Type The Movie Title" />
+      <button onclick="searchMovie()">Search</button>
+      <h2>(*ᴗ͈ˬᴗ͈)ꕤ*🎀.ﾟ˚˖𓍢ִ໋🦢˚</h2>
+    </div>
+
+    <div id="movieList" class="movieList"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
